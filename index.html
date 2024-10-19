@@ -39,10 +39,19 @@
         let indiceMassaCorporal;
         let anoNascimento;
         indiceMassaCorporal = peso / (alturaEmM * alturaEmM);
-        anoNascimento = 2024 - idade;
+        anoNascimento = 2023 - idade;
 
         console.log(`${nome} ${sobrenome} tem ${idade} anos, pesa ${peso} kg`);
         console.log(`tem ${alturaEmM} de altura e seu IMC de ${indiceMassaCorporal} nasceu em ${anoNascimento}.`)
+
+        let nomeUsuario = prompt("Por favor, digite seu nome:");
+        alert("ola, " + nomeUsuario + "!");
+
+        let num1 = prompt('Digite um numero:');
+        let num2 = prompt('Digite outro numero:');
+            num1 = Number(num1);
+            num2 = Number(num2);
+        alert(`O resultsdo da conta foi: ${num1 + num2}`);
     </script>
 
 </head>
