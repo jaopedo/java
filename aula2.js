@@ -1,0 +1,47 @@
+//const texto = "O rato roeu a roupa do rei de Roma. ";
+//const regex = /R[a-z]+/g;
+//const correspondencias = texto.match(regex);
+//console.log(correspondencias);          
+//let umastring = 'Meu valor';
+//console.log(umastring.split(' ', 2));
+//console.log(umastring.charAt(1));
+//console.log(umastring.toLowerCase());
+//console.log(umastring.slice(-3, -1));
+//console.log(umastring.replace(/e/g,  '3'));
+//console.log(umastring.search(/[a-z]+/g));
+//console.log(umastring.indexOf('l', 1));
+//console.log(umastring.lastIndexOf('e', umastring.length));
+//console.log(umastring.charAt(-1));
+//console.log(umastring.charCodeAt(4));
+//console.log(umastring.concat('', '.br'));
+//console.log(umastring.charAt(8));
+//let num1 = 0.7; // number
+//let num2 = 0.1; // number
+//num1 = ((num1)+(num2));
+//console.log(num1);
+//num1 = Number(num1.toFixed(2));
+//num2 = Number(num2.toFixed(2));
+//console.log(num1);
+//console.log(Number.isInteger(num1));
+//console.log(num1.toString() + num2);
+//console.log(Number.isNaN(num1)); 0 1
+//console.log(!!(100 / 0));
+//let num1 = 3.5; 
+//let num2 = Macth.round(num1);
+//console.log(num2);
+//console.log(Math.max(1,2,3,4,5,-10,-50,1500,9,8,7,6));
+//console.log(Math.random());
+let alunos = ['Luiz', 'Maria', 'João'];
+console.log(alunos[3]);
+console.log(typeof alunos);
+alunos.push('Eduardo');
+console.log(alunos[3]);
+alunos.unshift('Luiza');
+console.log(alunos[0]);
+delete alunos[3];
+console.log(alunos.slice(0, -2));
+const removido = alunos.shift();
+console.log(removido);
+alunos[alunos.length] = 'Luana';
+console.log(alunos);
+console.log(alunos instanceof Array);
